@@ -1,11 +1,9 @@
-Setup:
-
 The main purpose of this program to grab and display temperature data from a Samsara environment monitor (EM21,EM22).
 
 Please edit the settings.py to add the widget ID from your EM sensor. You can find the widget ID for any sensor by selecting it from the Samsara Dashboard. The widget ID is at the end of the URL when viewing a temperature sensor. 
 
 For example:
-https://cloud.samsara.com/o/6081/widgets/212014918099025/show
+https://cloud.samsara.com/o/6081/widgets/**********/show
 
 
 The groupID and API token can be found in the settings page on your org in the API Tokens section. If you don’t already have an API token you’ll need to create one.
